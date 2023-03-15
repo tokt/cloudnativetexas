@@ -1,4 +1,4 @@
-baseURL = 'http://hugo-quickstart-template.netlify.com'
+baseURL = 'http://cloudnativetexas.com'
 languageCode = 'en-us'
-title = 'Netlify + Hugo Quickstart'
+title = 'Cloud Native Texas'
 theme = 'netlify-basic'
