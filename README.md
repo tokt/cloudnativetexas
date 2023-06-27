@@ -24,6 +24,9 @@ Love reading, here's blog post: https://www.netlify.com/blog/deploy-your-hugo-ap
   - [Removing Cypress](#removing-cypress)
 - [Want to learn more?](#want-to-learn-more)
 
+## Current buid status: 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e482336b-02f3-412c-9924-14c027100866/deploy-status)](https://app.netlify.com/sites/cloudnativetexas/deploys)
+
 ## Quick Setup + Deploy Option
 
 Click this button and it will help you create a new repo, create a new Netlify project, and deploy!
