@@ -1,6 +1,11 @@
 # Local Netlify folder
 .netlify
 
+# Hugo build artifacts
+/public/
+/resources/
+hugo_stats.json
+
 # Package Files
 node_modules/
 
