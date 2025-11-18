@@ -2,8 +2,8 @@
 .netlify
 
 # Hugo build artifacts
-/public/
-/resources/
+public/
+resources/
 hugo_stats.json
 
 # Package Files
