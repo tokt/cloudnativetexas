@@ -1,6 +1,7 @@
 {{ define "main" }}
 <svg id="background" width='1728' height='1235' viewBox="0 0 1728 1235" fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='0.75' filter='url(#filter0_f_39_143)'><circle cy='1000' r='264' fill='url(#paint0_linear_39_143)'/></g><g opacity='0.65' filter='url(#filter1_f_39_143)'><circle cx='1720' cy='264' r='379' fill='url(#paint1_linear_39_143)'/></g><defs><filter id='filter0_f_39_143' x='-485' y='515' width='970' height='970' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><filter id='filter1_f_39_143' x='1120' y='-336' width='1200' height='1200' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><linearGradient id='paint0_linear_39_143' x1='196.5' y1='902' x2='-2.55853e-05' y2='1264' gradientUnits='userSpaceOnUse'><stop stop-color="var(--bttm-left-blur-1)"/><stop offset='1' stop-color="var(--bttm-left-blur-2)"/></linearGradient><linearGradient id='paint1_linear_39_143' x1='1720' y1='-115' x2='1720' y2='643' gradientUnits='userSpaceOnUse'><stop stop-color="var(--top-right-blur-1)"/><stop offset='1' stop-color="var(--top-right-blur-2)" /></linearGradient></defs></svg>
 <main class="landing">
+
   <section class="hero">
     <div class="hero__content">
       <p class="eyebrow">Community-powered Kubernetes &amp; cloud native learning</p>
@@ -10,12 +11,54 @@
         Hands-on labs, hallway conversations, and practical stories from Austin, Dallas, and Houston.
       </p>
       <div class="hero__actions">
-        <a class="btn btn--primary" href="https://community.cncf.io/chapters/">Join a local chapter</a>
-        <a class="btn btn--ghost" href="https://cloudnativetexas.com/sponsor.html">Become a sponsor</a>
+        <a class="btn btn--primary" href="https://community.cncf.io/events/details/cncf-kcd-texas-presents-kcd-texas-2026/cohost-kcd-texas/">Come to an event</a>
+        <a class="btn btn--ghost" href="#chapters">Join a local chapter</a>
       </div>
     </div>
+    <div class="hero__stats">
+      <article>
+        <span class="stat__value">3</span>
+        <span class="stat__label">Local Chapters</span>
+      </article>
+      <article>
+        <span class="stat__value">Monthly</span>
+        <span class="stat__label">Meetups</span>
+      </article>
+      <article>
+        <span class="stat__value">KCD</span>
+        <span class="stat__label">Annual Conference</span>
+      </article>
+      <article>
+        <span class="stat__value">CNCF</span>
+        <span class="stat__label">Affiliated</span>
+      </article>
+    </div>
   </section>
-  <section class="chapters">
+
+  <section class="kcd-banner">
+    <div class="kcd-banner__content">
+      <p class="kcd-banner__label">Upcoming Event</p>
+      <h2>KCD Texas 2026</h2>
+      <p>May 15, 2026 &nbsp;·&nbsp; TCEA, Austin, TX &nbsp;·&nbsp; In-person</p>
+    </div>
+    <a class="btn btn--light" href="https://community.cncf.io/events/details/cncf-kcd-texas-presents-kcd-texas-2026/cohost-kcd-texas/" target="_blank" rel="noopener">Get Tickets &rarr;</a>
+  </section>
+
+  <section class="mission">
+    <div class="mission__content">
+      <p class="eyebrow">Our mission</p>
+      <h2>By the community, for the community</h2>
+      <p>Cloud Native Texas is an open alliance across Austin, Dallas, and Houston — connecting engineers, platform teams, and architects around cloud native technologies and the CNCF ecosystem. We run monthly meetups, hands-on labs, and an annual KCD Texas conference.</p>
+    </div>
+    <div class="mission__join">
+      <p class="eyebrow">Join the conversation</p>
+      <h3>Connect on Slack</h3>
+      <p>Join fellow Texas cloud native practitioners in the CNCF Slack workspace.</p>
+      <a class="btn btn--primary" href="https://slack.cncf.io/" target="_blank" rel="noopener">Join CNCF Slack</a>
+    </div>
+  </section>
+
+  <section class="chapters" id="chapters">
     <div class="section-heading">
       <p class="eyebrow">Keep building</p>
       <h2>Join a local chapter</h2>
@@ -39,5 +82,6 @@
       </article>
     </div>
   </section>
+
 </main>
 {{ end }}
